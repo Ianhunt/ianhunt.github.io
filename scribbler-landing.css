@@ -12,7 +12,7 @@ nav {
 /* hero section */
 .hero {
   text-align: center;
-  background-color: var(--bg-color);
+  background-color: var(--light-gray-color);
   padding: 1rem 0 1rem 0;
 }
 
@@ -48,10 +48,12 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content:center;
+  padding: 1rem 4rem 1rem 4rem;
+  background-color: var(--white-color)
 }
 
 .feature__item {
-  max-width: calc(33% - 20px);
+  max-width: calc(50% - 20px);
   margin: 0 20px 0 0;
 }
 
@@ -61,6 +63,10 @@ nav {
 
 .feature__item p {
   margin-top: 0.5rem;
+}
+
+.feature__qualifications {
+  background-color: var(--light-gray-color);
 }
 
 /* keybinding section */
@@ -129,7 +135,7 @@ nav {
 
 /* changelog section */
 .changelog {
-  background-color: var(--bg-color);
+  background-color: var(--white-color);
   padding: 2rem 0;
 }
 

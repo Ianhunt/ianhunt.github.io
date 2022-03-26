@@ -1,14 +1,14 @@
 /* css variables*/
 :root {
-  --primary-color: #432E30;
+  --primary-color: #008080;
   --primary-color-light: #8E7474;
   --accent-color: #FE6A6B;
   --accent-color-light: #FFE4E4;
   --accent-color-dark: #B94B4C;
   --white-color: #FAFBFC;
-  --light-gray-color: #C6CBD1;
-  --medium-gray-color: #959DA5;
-  --dark-gray-color: #444D56; 
+  --light-gray-color: #F0F0F0;
+  --medium-gray-color: #C6CBD1;
+  --dark-gray-color: #959DA5; 
   --bg-color: #F8F8FA;
   --code-bg-color: #F0E8E8;
 }
@@ -301,6 +301,11 @@ table td:first-child {
   padding: 2rem;
   color: white;
 }
+
+.footer_text {
+  color: white;
+}
+
 
 @keyframes fadeUp {
   0% {
