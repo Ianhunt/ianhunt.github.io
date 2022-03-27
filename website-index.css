@@ -80,31 +80,33 @@ nav {
   margin-top: 0.5rem;
 }
 
-/* changelog section */
-.changelog {
+/* nestedlist section */
+.nestedlist {
   background-color: var(--white-color);
   padding: 2rem 0;
 }
 
-.changelog__item {
+.nestedlist__item {
   display: flex;
 }
 
-.changelog__meta {
+.nestedlist__meta {
   flex-basis: 25%;
 }
 
-.changelog__meta small {
+.nestedlist__meta small {
   color: var(--primary-color-light);
   font-weight: 200;
   letter-spacing: 1px;
 }
 
-.changelog__title {
+.nestedlist__title {
+  display: flex;
+  justify-content:center;
   margin-bottom: 0;
 }
 
-.changelog__callout {
+.nestedlist__callout {
   margin: 3rem auto 2rem auto;
   text-align: center;
 }
@@ -113,7 +115,7 @@ nav {
   .hero__terminal {
     width: 70%;
   }
-  .feature, .keybinding, .changelog__item {
+  .feature, .keybinding, .nestedlist__item {
     flex-direction: column;
   }
   .feature__item {
