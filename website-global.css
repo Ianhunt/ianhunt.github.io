@@ -77,6 +77,14 @@ hr {
   color: var(--white-color);
 }
 
+.footer__link {
+  text-decoration: underline;
+  color: var(--white-color);
+}
+
+.footer__link:hover {
+  color: var(--accent-color);
+}
 
 @keyframes fadeUp {
   0% {
