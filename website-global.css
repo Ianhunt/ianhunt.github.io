@@ -1,16 +1,10 @@
 /* css variables*/
 :root {
   --primary-color: #008080;
-  --primary-color-light: #8E7474;
   --accent-color: #FE6A6B;
-  --accent-color-light: #FFE4E4;
-  --accent-color-dark: #B94B4C;
   --white-color: #FAFBFC;
   --light-gray-color: #F0F0F0;
-  --medium-gray-color: #C6CBD1;
-  --dark-gray-color: #959DA5; 
   --bg-color: #F8F8FA;
-  --code-bg-color: #F0E8E8;
 }
 
 /* normalized */
