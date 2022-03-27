@@ -54,21 +54,24 @@ nav {
 /* nestedlist section */
 .nestedlist {
   background-color: var(--white-color);
-  padding: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.nestedlist__header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .nestedlist__item {
+  margin: 0 auto;
+  width: 100%;
   display: flex;
-}
-
-.nestedlist__meta {
-  flex-basis: 25%;
-}
-
-.nestedlist__meta small {
-  color: var(--primary-color-light);
-  font-weight: 200;
-  letter-spacing: 1px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .nestedlist__title {
