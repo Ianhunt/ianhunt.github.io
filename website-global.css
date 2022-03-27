@@ -42,25 +42,6 @@ hr {
   color: var(--primary-color);
 }
 
-/* links */
-.link {
-  text-decoration: none;
-  transition: all 0.3s ease-out;
-}
-
-.link:hover {
-  color: var(--accent-color);
-}
-
-.link--dark {
-  color: var(--primary-color);
-}
-
-.link--light {
-  color: var(--accent-color);
-}
-
-
 /* layout */
 .wrapper {
   margin: 0 auto;
