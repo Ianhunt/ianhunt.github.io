@@ -2,9 +2,8 @@
 :root {
   --primary-color: #008080;
   --accent-color: #FE6A6B;
-  --white-color: #FAFBFC;
+  --white-color: #FFFFFF;
   --light-gray-color: #F0F0F0;
-  --bg-color: #F8F8FA;
 }
 
 /* normalized */
@@ -28,7 +27,7 @@ a, a:hover {
 hr {
   padding: 1rem 0;
   border: 0;
-  border-bottom: 1px solid var(--bg-color);
+  border-bottom: 1px solid var(--white-color);
 }
 
 * {
