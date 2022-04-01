@@ -1,8 +1,3 @@
-/* Develpoment settings */
-* {
-  outline: 1px solid black;
-}
-
 /* css variables*/
 :root {
   --primary-color: #008080;
@@ -50,7 +45,7 @@ hr {
 /* layout */
 .wrapper {
   margin: 0 auto;
-  width: 70%;
+  width: 90%;
 }
 
 .footer {
