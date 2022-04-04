@@ -7,6 +7,10 @@
 }
 
 /* normalized */
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   padding: 0;
   margin: 0;
@@ -30,10 +34,10 @@ hr {
   border-bottom: 1px solid var(--white-color);
 }
 
-* {
-  box-sizing: border-box;
-
+nav {
+  background-color: var(--white-color);
 }
+
 
 /* global components */
 
@@ -75,19 +79,6 @@ hr {
   100% {
     transform: translate3d(0,0,0);
   }
-}
-
-
-
-/* nav specialized to landing page */
-.logo {
-  background: url('logo.svg') no-repeat;
-  background-size: contain;
-  margin: 1rem 0 0 1rem;
-}
-
-nav {
-  background-color: var(--white-color);
 }
 
 /* hero section */
